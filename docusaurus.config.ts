@@ -24,6 +24,8 @@ const config: Config = {
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'WuMinlong', // Usually your GitHub org/user name.
   projectName: 'WuMinlong.github.io', // Usually your repo name.
+  deploymentBranch: 'pages', // Usually your repo branch.
+  trailingSlash: false,
 
   onBrokenLinks: 'throw',
 
@@ -44,7 +46,7 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/WuMinlong/WuMinlong.github.io/tree/main/',
         },
         blog: {
           showReadingTime: true,
@@ -55,7 +57,7 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/WuMinlong/WuMinlong.github.io/tree/main/',
           // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
@@ -89,7 +91,7 @@ const config: Config = {
         },
         {to: '/blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/WuMinlong/WuMinlong.github.io',
           label: 'GitHub',
           position: 'right',
         },
@@ -133,7 +135,7 @@ const config: Config = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/WuMinlong/WuMinlong.github.io',
             },
           ],
         },
