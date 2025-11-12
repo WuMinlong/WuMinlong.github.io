@@ -42,7 +42,7 @@ jobs:
     needs: build
     runs-on: ubuntu-latest
     environment:
-      name: pages
+      name: github-pages
     steps:
       - name: Deploy to GitHub Pages (uses uploaded artifact)
         uses: actions/deploy-pages@v4
